@@ -1,0 +1,267 @@
+/* Variables */
+:root {
+  --slate-grey: #738290;
+  --wild-blue: #A1B5D8;
+  --baby-powder: #FFFCF7;
+  --nyanza: #E4F0D0;
+  --tea-green: #C2D8B9;
+  --blue: #0d6efd;
+
+  --primary: var(--blue);
+  --secondary: var(--wild-blue);
+  --light: var(--baby-powder);
+
+  --space-xs: 4px;
+  --space-s: 8px;
+  --space-m: 16px;
+  --space-l: 24px;
+}
+
+/* General Styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* login */
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+.modal-content--bar {
+  margin-top: 5%;
+}
+
+.modal-content--form {
+  padding: var(--space-l);
+  width: 70%;
+  margin: 0 auto;
+}
+
+.modal-content--form label,
+.modal-content--form input {
+  margin: var(--space-s) var(--space-l);
+}
+
+.modal-content--form input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+/* Header */
+.c-header,
+.c-footer {
+  min-height: 10vh;
+  background-color: #f1f1f1;
+  padding: 0 var(--space-l);
+}
+
+.c-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.c-header__right {
+  text-align: right;
+}
+
+.c-header__left img{
+  width: 100px;
+}
+
+/* Footer */
+
+
+/* Content */
+.c-content { 
+  min-height: 80vh;
+  padding: var(--space-l);
+}
+
+/* Login */
+.c-bar {
+  border: 1px solid var(--primary);
+  border-radius: 6px;
+  color: var(--primary);
+  display: flex;
+  justify-content: space-between;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.c-bar.c-components--bar {
+  max-width: 100%;
+}
+
+.c-bar--element {
+  text-align: center;
+  flex-grow: 1;
+  padding: var(--space-s) var(--space-m);
+}
+
+.c-bar--element.active {
+  background-color: var(--primary);
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.c-bar--element.active a {
+  color: white;
+}
+
+.c-login-form {
+  max-width: 40%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.form-button {
+  text-align: center;
+}
+
+/* Components */
+.c-component--links {
+  width: 33.33%;
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--primary);
+  padding: var(--space-s);
+  border: none;
+}
+
+.c-component--links.active {
+  background-color: var(--primary);
+  color: white;
+  border-left: 0;
+}
+
+.c-components--row {
+  padding: var(--space-l) 0 ;
+  /* override grid.css row styling */
+  margin: 0; 
+}
+
+.c-component {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: var(--space-m);
+  
+}
+.c-component:not(:last-child) {
+  margin-right: var(--space-m);
+}
+
+.c-component a {
+  text-decoration: none;
+  color: black;
+}
+
+.c-component--button {
+  padding: var(--space-s) var(--space-l);
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.c-component:hover .c-component--button {
+  opacity: 0.7;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+}
