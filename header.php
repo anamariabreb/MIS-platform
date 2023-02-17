@@ -13,12 +13,12 @@
 
 <header>
     <section class="c-header">
-        <div class="c-header__left">
+        <div class="c-left">
             <img src="logo.png" alt="MIS logo">
 
         </div>
 
-        <div class="c-header__right">
+        <div class="c-right">
             <a href="homepage.php" class="">Home</a>
             <a href="account.php" class="btn btn-outline-primary">Account</a>
         </div>

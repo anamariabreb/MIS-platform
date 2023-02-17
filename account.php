@@ -12,13 +12,15 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <?php include 'header.php' ;?>
 
 <div class="c-content">
-    <h1 class="my-5">Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to our site.</h1>
+    <h1 class="my-5">Hi, <b style="text-transform: capitalize;"><?php echo htmlspecialchars($_SESSION["username"]); ?></b>, 
+    <br>
+    Welcome to the Management Information System.</h1>
 
     <h3>What would you like to do today?</h3>
 
-    <a href="homepage.php" class="btn btn-outline-primary">Access Components</a>
-    <a href="reset-password.php" class="btn btn-outline-primary">Reset Your Password</a>
-    <a href="logout.php" class="btn btn-outline-danger">Sign Out of Your Account</a>
+    <p><a href="homepage.php" class="btn btn-outline-primary">Access Components</a></p>
+    <p><a href="reset-password.php" class="btn btn-outline-primary">Reset Your Password</a></p>
+    <p><a href="logout.php" class="btn btn-outline-danger">Sign Out of Your Account</a></p>
 </div>
 
 <?php include 'footer.php' ;?>
