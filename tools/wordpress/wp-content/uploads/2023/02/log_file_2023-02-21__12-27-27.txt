@@ -1,0 +1,58 @@
+
+---Downloaded files---
+The import files for: Open Shop Default were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/MIS-platform/tools/wordpress
+Data file = /Applications/XAMPP/xamppfiles/htdocs/MIS-platform/tools/wordpress/wp-content/uploads/2023/02/demo-content-import-file_2023-02-21__12-27-27.xml
+Widget file = /Applications/XAMPP/xamppfiles/htdocs/MIS-platform/tools/wordpress/wp-content/uploads/2023/02/demo-widgets-import-file_2023-02-21__12-27-27.json
+Customizer file = /Applications/XAMPP/xamppfiles/htdocs/MIS-platform/tools/wordpress/wp-content/uploads/2023/02/demo-customizer-import-file_2023-02-21__12-27-27.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+Primary Sidebar : 
+
+Open Shop : About Us widget - About Us - Imported
+Products by Rating list - Top rated - Imported
+Products list - Products - Imported
+Open Shop : Post Slide widget - Latest News - Imported
+
+Footer Top Second Widget : 
+
+Image - No Title - Imported
+
+Footer Widget Area 1 : 
+
+Text - No Title - Imported
+
+Footer Widget Area 2 : 
+
+Tag Cloud - Tag Clouds - Imported
+
+Footer Widget Area 3 : 
+
+Products list - Sale Products - Imported
+
+Footer Widget Area 4 : 
+
+Custom HTML - Contact Details - Imported
+
+WooCommerce Sidebar : 
+
+Filter Products by Price - Filter by price - Imported
+Filter Products by Attribute - Filter by - Imported
+Products by Rating list - Top rated products - Imported
+
+Product Sidebar : 
+
+Products by Rating list - Top rated products - Imported
+Products list - On Sale - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

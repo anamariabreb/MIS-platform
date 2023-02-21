@@ -20,13 +20,13 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'Comp4-WordPress' );
+define( 'DB_NAME', 'Comp4-wordpress-shop' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'anamaria' );
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'testing123' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'cZLZZ:KuE/j6l{XFvY%wBZ~?A5blno;lrT&ipaDk]0(3D6@i<0)Kd-~#:aeei41^' );
-define( 'SECURE_AUTH_KEY',  '~3X(~nD^^L1j~A>{JV3Ylq@jx4[.$Hbn^3BJptb6A{_wvUUW;*U71Tnh)W&k/ L&' );
-define( 'LOGGED_IN_KEY',    'JA+Y)nCPJ{{RcA&?`c6%7`U2gTuiyrXoJ +[J_V)jMjQQhm`~Uu;HRbWrcPy[.0P' );
-define( 'NONCE_KEY',        'bkb{E;w8_?CeA`5@xDSe1=bi9<xz{9g+2](GVd#GK~Ph|yLBB&67D;7qqk?s}<f&' );
-define( 'AUTH_SALT',        'bGQj3So#Z>G_B,@-]}h)($ O]mM 42pLdYowIha%:u&8>ZDua0U;sP(IXn7E;mS*' );
-define( 'SECURE_AUTH_SALT', '%{Ju#kO^`~eAwJ(@oU>tSV&* bGYm~)gKL{g(5T55*QDdsAQK+++oC(8oCy$|Wq6' );
-define( 'LOGGED_IN_SALT',   'F6JA_}6B[c-5{wZVxgHD:[f}[IhV[*G/8?1#~U_31,I-/;Rc-1^_0Qmj`L:|0]W9' );
-define( 'NONCE_SALT',       'dM(26C`M{i>er?2o%(PMg5<Q.KH?NVEa+#mYNW8y<h<?gEUA|wF-6#Q&oSY##s(s' );
+define( 'AUTH_KEY',         '}c<sa5d r]N3$vz(Z?VxD+rA3&$[M*(W,6M`(lf?K~LlC0V>qC4np/#a !(F|$DR' );
+define( 'SECURE_AUTH_KEY',  'w(G~x?qn %_)R%@S=&.B_%[uSs|cC6nkvS.G[a[d*8P$`@QG*L2 <w9}6[K8@k&)' );
+define( 'LOGGED_IN_KEY',    'Qn-q(9]s_luUj4oRFIr1eMP)AyF~cA9Y$t3]XsPs2T|!:[iGe<7t00yZyxX&]-5U' );
+define( 'NONCE_KEY',        'Gs;ojO6G3_lWt[,[s6yd#Tx9sbR/eH;hV V58s34ebB_hsvK+=PnydaP@wf+-O1n' );
+define( 'AUTH_SALT',        'mo&Cf?vCeIsB4/(++&3[]`iCu)Pmc`%Ff@YERT@l?pq!=TPdC8<<@LF$vW.fdmUV' );
+define( 'SECURE_AUTH_SALT', '7H?42hj4)E5]XX8*1S|boYtfB7qQLmZ){y]emOWe@c%ou<3dq*q$Z=x&oUY;U-wr' );
+define( 'LOGGED_IN_SALT',   '[7r~*ht,u^86*Y)XZK[eDhQ4M}LNBJsTC~qAv9ROr=S)rx1jCbr};6)oG@&*W{2d' );
+define( 'NONCE_SALT',       'S,F}/Oqs=@G|>Abhz~JR.jM h^aiV5~+8,&%dNpV CE@{vxe|2ked_yc<g#;xUlv' );
 
 /**#@-*/
 
@@ -94,3 +94,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
+
+/* Add any custom values between this line and the "stop editing" line. */
+
+define( 'FS_METHOD', 'direct' );
+
+/* That's all, stop editing! Happy publishing. */
