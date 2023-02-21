@@ -14,9 +14,9 @@
 
                         <p class="c-component--subheading lead">Visual Studio Code</p>
 
-                        <p class="c-component--content">TBD</p>
+                        <p class="c-component--content">A development and test environment that allows multiple concurrent work-streams.</p>
 
-                        <button class="c-component--button">More Info</button>
+                        <button class="c-component--button">Learn more</button>
                     </a>
                 </div>
                 <div class="col-sm c-component">
@@ -25,9 +25,9 @@
 
                         <p class="c-component--subheading lead">GitHub</p>
 
-                        <p class="c-component--content">TBD</p>
+                        <p class="c-component--content">A staging system for pre-released products and production streams for products in the support phase of their lifecycle.</p>
 
-                        <button class="c-component--button">More Info</button>
+                        <button class="c-component--button">Learn more</button>
                     </a>
                 </div>
                 <div class="col-sm c-component">
@@ -37,9 +37,9 @@
 
                         <p class="c-component--subheading lead">osTicket</p>
 
-                        <p class="c-component--content">TBD</p>
+                        <p class="c-component--content">A support service management system including support ticketing, escalation, performance metrics and service valuation and improvement.</p>
 
-                        <button class="c-component--button">More Info</button>
+                        <button class="c-component--button">Learn more</button>
                     </a>
                 </div>
             </div>
@@ -53,9 +53,9 @@
 
                         <p class="c-component--subheading lead">Akaunting</p>
 
-                        <p class="c-component--content">TBD</p>
+                        <p class="c-component--content">A financial management and control system allowing budgeting, management and visibility of products, services, and assets.</p>
 
-                        <button class="c-component--button">More Info</button>
+                        <button class="c-component--button">Learn more</button>
                     </a>
                 </div>
                 <div class="col-sm c-component">
@@ -64,9 +64,9 @@
 
                         <p class="c-component--subheading lead">WordPress</p>
 
-                        <p class="c-component--content">TBD</p>
+                        <p class="c-component--content">A web presence with a sales management system and a storefront.</p>
 
-                        <button class="c-component--button">More Info</button>
+                        <button class="c-component--button">Learn more</button>
                     </a>
                 </div>
                 <div class="col-sm c-component">
@@ -75,9 +75,9 @@
 
                         <p class="c-component--subheading lead">phpmyfaq</p>
 
-                        <p class="c-component--content">TBD</p>
+                        <p class="c-component--content">A corporate information system providing customer access to the knowledge base and appropriate access to relevant information.</p>
 
-                        <button class="c-component--button">More Info</button>
+                        <button class="c-component--button">Learn more</button>
                     </a>
                 </div>
             </div>
@@ -91,9 +91,9 @@
 
                         <p class="c-component--subheading lead">SuiteCRM</p>
 
-                        <p class="c-component--content">TBD</p>
+                        <p class="c-component--content">A customer relationship management system (CRM) providing visibility of all customer relationships and contact details.</p>
 
-                        <button class="c-component--button">More Info</button>
+                        <button class="c-component--button">Learn more</button>
                     </a>
                 </div>
                 <div class="col-sm c-component">
@@ -102,9 +102,9 @@
 
                         <p class="c-component--subheading lead">IceHRM</p>
 
-                        <p class="c-component--content">TBD</p>
+                        <p class="c-component--content">Seamless staff management and communications, including payroll.</p>
 
-                        <button class="c-component--button">More Info</button>
+                        <button class="c-component--button">Learn more</button>
                     </a>
                 </div>
                 <div class="col-sm c-component">
@@ -113,9 +113,9 @@
 
                         <p class="c-component--subheading lead">Component Description</p>
 
-                        <p class="c-component--content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p class="c-component--content">A configuration management and control system.</p>
 
-                        <button class="c-component--button">More Info</button>
+                        <button class="c-component--button">Learn more</button>
                     </a>
                 </div>
             </div>
