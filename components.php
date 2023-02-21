@@ -48,12 +48,12 @@
         <div id="ManagementResources" class="tabcontent">
             <div class="row c-components--row">
                 <div class="col-sm c-component">
-                    <a href="#"  target="_blank">
+                    <a href="./tools/akaunting/index.php/1/common/reports"  target="_blank">
                         <h1 class="c-component--heading">Financial Management</h1>
 
-                        <p class="c-component--subheading lead">Component Description</p>
+                        <p class="c-component--subheading lead">Akaunting</p>
 
-                        <p class="c-component--content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p class="c-component--content">TBD</p>
 
                         <button class="c-component--button">More Info</button>
                     </a>
